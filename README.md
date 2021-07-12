@@ -56,7 +56,7 @@ We prepare small dataset in 3 different distance to measure our method performan
 #### Citation 
 If this dataset help you during  research feel free to cite it:
 ```
-@article{SHARIFI2021100104,
+@article{DeepHazmat,
 title = {A deep learning based hazardous materials (HAZMAT) sign detection robot with restricted computational resources},
 journal = {Machine Learning with Applications},
 pages = {100104},
@@ -65,7 +65,5 @@ issn = {2666-8270},
 doi = {https://doi.org/10.1016/j.mlwa.2021.100104},
 url = {https://www.sciencedirect.com/science/article/pii/S2666827021000529},
 author = {Amir Sharifi and Ahmadreza Zibaei and Mahdi Rezaei},
-keywords = {Hazardous materials, Object recognition, HAZMAT sign detection, Segmentation, CNN, Rescue robotics},
-abstract = {One of the most challenging and non-trivial tasks in robot-based rescue operations is the Hazardous Materials (HAZMAT) sign detection in dangerous operation fields, in order to prevent further unexpected disasters. Each HAZMAT sign has a specific meaning that the rescue robot should detect and interpret it to take a safe action, accordingly. Accurate HAZMAT detection and real-time processing are the two most important factors in such robotics applications. Furthermore, the rescue robot should cope with some secondary challenges such as image distortion and restricted CPU and computational resources, embedded in the robot. In this research, we propose a CNN-Based pipeline called DeepHAZMAT for HAZMAT sign detection and segmentation in four steps: (1) Input data volume optimisation before feeding into the CNN network, (2) Application of a YOLO-based structure to collect the required visual information from the hazardous areas, (3) HAZMAT sign segmentation and separation from the background using adaptive GrabCut technique, and (4) Post-processing optimisation using morphological operators and convex hull algorithms. In spite of the utilisation of a very limited CPU and memory resources, the experimental results show the proposed method has successfully maintained a better performance in terms of detection-speed and detection-accuracy, compared to classical and modern state-of-the-art methods.}
 }
 ```
